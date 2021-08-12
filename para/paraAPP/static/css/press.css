@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    width: fit-content;
+
+}
+    #logo{
+        width: 250px;
+        height: 90px;
+    }
+.body{
+    display: flex;
+    justify-content: center;
+}
