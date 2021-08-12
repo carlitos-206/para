@@ -8,3 +8,6 @@ def about_us(request):
 
 def press(request):
     return render(request, "press.html")
+
+def testemonies(request):
+    return render(request, "testemonies.html")

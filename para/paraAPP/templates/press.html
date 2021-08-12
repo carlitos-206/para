@@ -27,7 +27,7 @@
                         <a href="/about_us" class="pure-menu-link">About Us</a>
                     </li>
                     <li class="pure-menu-item">
-                        <a href="#" class="pure-menu-link">Testemonies</a>
+                        <a href="/testemonies" class="pure-menu-link">Testemonies</a>
                     </li>
                     <li class="pure-menu-item">
                         <a href="#" class="pure-menu-link">FAQ</a>
@@ -38,6 +38,40 @@
                 </ul>
             </div>
         </div>
+        <div class="body">
+            <div class="title">
+                <h2>Appeared on</h2>
+                <h5 style="position: relative; left: 15%">(click to read)</h5>
+            </div>
+        </div>
+        <div class="news-outlets">
+            <div class="vice-news">
+                <a href="https://www.vice.com/en/article/pkbvgz/no-dasher-no-deliveries-doordash-drivers-strike-for-tip-transparency" target="_blank"><img id="vice-img"src="{% static 'img/vice-news-logo.svg' %}" alt="vice news"></a>
+            </div>
+            <div class="insider-news">
+                <a href="https://www.insider.com/doordash-tiktok-boycott-base-pay-tips-ubereats-grubhub-2021-7" target="_blank"><img src="{% static 'img/business-insider-logo.png' %}" alt="business insiders" id="business-img"></a>
+            </div>
+            <div class="npr-news">
+                <a href="https://www.npr.org/2021/07/31/1023265561/why-doordash-drivers-are-on-strike" target="_blank"><img src="{% static 'img/npr-logo.jpg' %}" alt="NPR logo" id="npr-img"></a>
+            </div>
+            <div class="eff-news">
+                <a href="https://www.eff.org/deeplinks/2021/08/tech-rights-are-workers-rights-doordash-edition" target="_blank"><img src="{% static 'img/eff-logo.svg' %}" alt="EFF logo" id="eff-img"></a>
+            </div>
+        </div>
+        <div class="testemonies">
+            <a href="/testemonies" ><button type="button" id="testemonies-btn" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">But, what are people saying?</button></a>
+        </div>
     </div>
 </body>
+<footer>
+    <div class="foot">
+        <div class="foot-1">
+            <p>para LLC | <a href="#">Contact Us</a></p>
+        </div>
+        <div class="foot-2">
+            <p>Back to top <a href="#top"><img id="back-to-top-img"src="{% static 'img/back-to-top.png' %}" alt="Back-to-top"></a></p>
+        </div>
+    </div>
+    
+</footer>
 </html>
