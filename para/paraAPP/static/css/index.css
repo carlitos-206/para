@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 14%;
+    width: fit-content;
+
+}
+    #logo{
+        width: 250px;
+        height: 90px;
+    }
+.body{
+    display: flex;
+    justify-content: center;
+}
+    .img{
+        width: 800px;
+        height: 500px;
+    }
+    #g-store{
+        position: relative;
+        bottom: 400px;
+        left: 15%;
+        width: 300px;
+        height: 100px;
+        z-index: +1;
+    }
+    #ios-store{
+        position: relative;
+        bottom: 175px;
+        left: 15%;
+        width: 300px;
+        height: 100px;
+        z-index: +1;
+        position: absolute;
+    }
+    #or-statement{
+        position: relative;
+        bottom: 250px;
+        left: 30%;
+    }
+    #phone-number{
+        z-index: +1;
+        position: relative;
+        bottom: 250px;
+        left: 20%;
+    }
+    footer {
+        position: relative;
+        left: 45%;
+    }
