@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 45%;
+    width: 800px;
+
+}
+    #logo{
+        width: 250px;
+        height: 90px;
+    }
+.body{
+    position: relative;
+    top: 100px;
+    right: 80%;
+}
+.background{
+    display: flex;
+    justify-content: center;
+}
+#man-showing-phone{
+    width: 800px;
+
+}
+#g-store{
+    width: 125px;
+    height: 35px;
+    position: absolute;
+    bottom: 400px;
+    left: 540px;
+}
+#or-statement{
+    position: absolute;
+    bottom: 350px;
+    left: 575px;
+}
+#ios-store{
+    width: 125px;
+    height: 35px;
+    position: absolute;
+    left: 540px;
+    bottom: 300px;
+}
+.cell{
+    position: absolute;
+    display: block;
+    background-color: rgb(252, 252, 252);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    left: 200px;
+}
+button {
+    border-radius: 35%;
+    width: 85px;
+    height: 25px;
+    background-color: rgb(59,47,191);
+    color: white;
+}
+.foot{
+    position: absolute;
+    top: 700px;
+    width: fit-content;
+    left: 50px;
+}
+#back-to-top-img{
+    width: 50px;
+    height: 50px;
+}

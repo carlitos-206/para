@@ -19,23 +19,46 @@
     display: flex;
     justify-content: center;
 }
-    .img{
+    .title{
         display: flex;
         justify-content: center;
-        position: relative;
-        left:25%;
-        width: 500px;
-        height: 600px;
     }
     .carousel{
+        display: flex;
+        justify-content: center;
         width: 90%;
     }
+    .slide{
+        display: flex;
+        justify-content: center;
 
+    }   
+    
+    #slide1{
+        height: 800px;
+    }
+        #fb-img{
+            display: flex;
+            justify-content: center;
+            width: 50vw;
+            height: 50vw;
+            position: relative;
+            left: 20%;
+        }
+        #fb-join{
+            display: flex;
+            justify-content: center;
+        }
+        #slide2, #slide3{
+            height: 450px;
+        }
+        #yt-vid-1, #yt-vid-2{
+            position: relative;
+            left: 25%;
+        }
     .foot{
         position: relative;
-        top: 200px;
-        /* display: flex;
-        justify-content: center; */
+        top: 25px;
     }
         .foot-1{
             display: flex;

@@ -35,32 +35,38 @@
                     <li class="pure-menu-item">
                         <a href="#" class="pure-menu-link">Contact</a>
                     </li>
+                    <li class="pure-menu-item">
+                      <a href="/download" class="pure-menu-link">Download</a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="body">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-item active" style="height:500px;"data-bs-interval="false">
                     <img id="img_1"src="{% static 'img/para-main.png' %}" class="d-block img" alt="IMG 1">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Welcome to your Gig HQ</h5>
-                      <p>Effortlessly manage your gig work and find new gigs</p>
-                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.paramobile" target="_blank"><img id="g-store" src="{% static 'img/google-store-logo.png' %}" alt=""></a>
+                    <a href="https://apps.apple.com/us/app/para-your-gig-hq/id1548322258"><img id="ios-store" src="{% static 'img/ios-store-logo.png' %}" alt=""></a>
+                    <h4 id="or-statement">-OR-</h4>
+                    <form id="phone-number" action="/index-2">
+                      <input type="tel">
+                      <button type="submit">Text Me</button>
+                    </form>
                   </div>
-                  <div class="carousel-item" data-bs-interval="2000">
+                  <div class="carousel-item" data-bs-interval="false">
                     <img src="{% static 'img/girl-phone-mask.jpg' %}" class="d-block img" alt="IMG 2">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>See your tips in advance</h5>
-                      <p>They're your tips!</p>
+                        <h5>Welcome to your Gig HQ</h5>
+                        <p>Effortlessly manage your gig work and find new gigs</p>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="false">
                     <img src="{% static 'img/man-phone-mask.jpg' %}" class="d-block  img" alt="IMG 3">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Make more money</h5>

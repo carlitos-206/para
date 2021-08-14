@@ -11,3 +11,6 @@ def press(request):
 
 def testemonies(request):
     return render(request, "testemonies.html")
+
+def download(request):
+    return render(request, "download.html")
