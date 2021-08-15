@@ -7,4 +7,6 @@ urlpatterns=[
     path("press", views.press),
     path("testemonies", views.testemonies),
     path("download", views.download),
+    path("faq", views.faq),
+    path("contact", views.contact),
 ]

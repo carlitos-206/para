@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 14%;
+    width: fit-content;
+
+}
+    #logo{
+        width: 250px;
+        height: 90px;
+    }
+.contact{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
