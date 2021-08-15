@@ -3,6 +3,186 @@
     margin: 0px;
 }
 
+@media only screen and (max-width: 480px){
+    .skip-mobile{
+        display: none;
+    }
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: whitesmoke;
+        position: relative;
+    }
+
+    label[for="toggle"] {
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        color: black;
+        z-index: 6;
+        font-size: 3rem;
+    }
+
+    .navigation--responsive {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    svg.hamburger {
+        display: none;
+    }
+
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 768px) {
+        .main-navigation {
+            display: none;
+        }
+
+        svg.hamburger {
+            display: block;
+        }
+
+        .navigation--responsive {
+            display: block;
+            background: linear-gradient(to top, #be93c5,  #7bc6cc);
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            top: -100vh;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: 0;
+            padding: 0;
+            transition: top 1s;
+        }
+     
+        .navigation--responsive ul {
+            display: block;
+            list-style: none;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            margin: 85px 0 0 0;
+            padding: 0;
+        }
+
+        .navigation--responsive ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation--responsive li a {
+            padding: 50px 20px 50px 30px;
+            text-decoration:none;
+            color:black;
+            font-family:sans-serif;
+        }  
+      
+       #toggle:checked ~ .navigation--responsive {
+            top: 0vh;
+        } 
+   
+    }
+    #list-menu{
+        position: relative;
+        top: 50px;
+    }
+    #logo{
+        position: relative;
+        top: 32.5px;
+        left: 40%;
+        width: 100px;
+        height: 35px;
+    }
+    .main-logo{
+        position: relative;
+        left:25%;
+        bottom: 150px;
+        z-index: -1;
+    }
+    #logo-2{
+        position: absolute;
+        top: -40px;
+        width: 220px;
+        height: 100px;
+    }
+    .mobile{
+        position: relative;
+        top: 100px;
+        z-index: -1;
+    }
+    .mobile-title{
+        position: relative;
+        top: 30px;
+        padding: 3%;
+        text-align: center;
+    }
+    #g-store{
+        position: relative;
+        left: 10%;
+        top: 50px;
+        width: 300px;
+        height: 100px;
+    }
+    #ios-store{
+        position: relative;
+        left: 10%;
+        top: 100px;
+        width: 300px;
+        height: 100px;
+    }
+    #or-statement{
+        text-align: center;
+        position: relative;
+        top: 150px;
+    }
+    .cell{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 200px;
+    }
+    button {
+        border-radius: 15%;
+        width: 80px;
+        background-color: lightblue;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: 400px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 481px){
+    .skip-mobile{
+        display: none;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+.mobile{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.skip-mobile{
+    display: block;
+}
 .head{
     display: flex;
     justify-content: center;
@@ -52,6 +232,8 @@
         left: 20%;
     }
     footer {
-        position: relative;
-        left: 45%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
+}

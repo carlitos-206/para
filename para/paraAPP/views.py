@@ -14,3 +14,9 @@ def testemonies(request):
 
 def download(request):
     return render(request, "download.html")
+
+def faq(request):
+    return render(request, 'faq.html')
+
+def contact(request):
+    return render(request, 'contact.html')

@@ -10,11 +10,74 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"> 
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link rel="icon" href="{% static 'img/favicon.ico' %}">
+    <!-- Mobile Dev -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>para | Welcome </title>
 </head>
 <body>
+  <div class="mobile-menu">
+    <!-- Hamburger Menu -->
+    <label for="toggle">
+      <i class="fas fa-bars hamburger"></i>
+  </label>
+
+  <!-- HEADER BEGINS -->
+  <header>
+  <!-- Large Display Navigation begins -->
+      <nav class="main-navigation"> 
+          <ul>
+            <ul id="list-menu">
+              <li>
+                <a href="/about_us" class="pure-menu-link">About Us</a>
+              </li>
+              <li>
+                <a href="/press" class="pure-menu-link">Press</a>
+              </li>
+              <li>
+                <a href="/testemonies" class="pure-menu-link">Testemonies</a>
+              </li>
+              <li>
+                <a href="/faq" class="pure-menu-link">FAQ</a>
+              </li>
+              <li>
+                <a href="/contact" class="pure-menu-link">Contact</a>
+              </li>
+              <li>
+                <a href="/download" class="pure-menu-link">Download</a>
+              </li>
+          </ul>
+          </ul>
+      </nav> <!-- Large Display Navigation Ends -->
+                  
+      <!-- Small display Responsive Navigation begins -->
+    <input type="checkbox" id="toggle" name="toggle"> 
+          <nav class="navigation--responsive">
+              <ul id="list-menu">
+                  <li>
+                    <a href="/about_us" class="pure-menu-link">About Us</a>
+                  </li>
+                  <li>
+                    <a href="/press" class="pure-menu-link">Press</a>
+                  </li>
+                  <li>
+                    <a href="/testemonies" class="pure-menu-link">Testemonies</a>
+                  </li>
+                  <li>
+                    <a href="/faq" class="pure-menu-link">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="/contact" class="pure-menu-link">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/download" class="pure-menu-link">Download</a>
+                  </li>
+              </ul>
+          </nav><!-- responsive nav ends-->
+  </header>
+  </div>
+    
     <div class="wrapper">
-        <div class="head">
+        <div class="head skip-mobile">
             <div class="pure-menu pure-menu-horizontal">
                 <ul class="pure-menu-heading pure-menu-list">
                     <li class="pure-menu-item">
@@ -30,10 +93,10 @@
                         <a href="/testemonies" class="pure-menu-link">Testemonies</a>
                     </li>
                     <li class="pure-menu-item">
-                        <a href="#" class="pure-menu-link">FAQ</a>
+                        <a href="/faq" class="pure-menu-link">FAQ</a>
                     </li>
                     <li class="pure-menu-item">
-                        <a href="#" class="pure-menu-link">Contact</a>
+                        <a href="/contact" class="pure-menu-link">Contact</a>
                     </li>
                     <li class="pure-menu-item">
                       <a href="/download" class="pure-menu-link">Download</a>
@@ -42,7 +105,7 @@
             </div>
         </div>
         <div class="body">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="false">
+            <div  id="carouselExampleDark" class="carousel carousel-dark slide skip-mobile" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -84,8 +147,30 @@
                 </button>
               </div>
     </div>
+    <div class="mobile">
+      <div class="mobile-title">
+        <h3>Welcome to your Gig HQ</h3>
+        <p>More money is flexability in life</p>
+      </div>
+      <div class="main-logo">
+        <img id="logo-2"src="{% static 'img/para-logo.png' %}" alt="logo">
+      </div>
+      <div class="links-mobile">
+          <div class="img-logos">
+            <a href="https://play.google.com/store/apps/details?id=com.paramobile" target="_blank"><img id="g-store" src="{% static 'img/google-store-logo.png' %}" alt=""></a>
+            <a href="https://apps.apple.com/us/app/para-your-gig-hq/id1548322258"><img id="ios-store" src="{% static 'img/ios-store-logo.png' %}" alt=""></a>
+          </div>
+          <h4 id="or-statement">-OR-</h4>
+          <div class="cell">
+            <form action="#">
+              <input type="number" id="cell-input" placeholder="(555) 555-5555">
+              <button type="submit">Text Me</button>
+            </form>
+          </div>
+        </div>
+    </div>
 </body>
 <footer>
-    <p>para LLC | <a href="#">Contact Us</a></p>
+    <p>para LLC | <a href="/contact">Contact Us</a></p>
 </footer>
 </html>
