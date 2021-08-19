@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%load static%}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="{% static 'css/about_us.css' %}">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
+    <title>para | About Us</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head" id="top">
+            <div class="pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-heading pure-menu-list">
+                    <li class="pure-menu-item">
+                        <img id="logo"src="{% static 'img/para-logo.png' %}" alt="logo">
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/" class="pure-menu-link">Home</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/press" class="pure-menu-link">Press</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/testemonies" class="pure-menu-link">Testemonies</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/faq" class="pure-menu-link">FAQ</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/contact" class="pure-menu-link">Contact</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/download" class="pure-menu-link">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-1">
+                <div class="section-1-title">
+                    <h3 id="mission">Our Mission</h3>
+                </div>
+                <div class="section-1-sub-title">
+                    <h4>Help you earn more, by working smarter.</h4>
+                </div>
+                <div class="section-1-body">
+                    <p>As a gig worker, you’re a busy entrepreneur running your own 
+                    business continously making choices that affect your financial 
+                    well being. 
+                    Having the right information at your fingertips is critical to your success — thats where we come in.
+                </p>
+                <p>We have created a tool that allows you make your time valuable, giving you the flexability that you deserve.</p>
+                <p>Nobody quite knows your market like you do. You’re a seasoned pro, after all. But that doesn’t mean we can’t help.</p>
+                <P>Too often it seems like the platforms lose sight of the driver and what’s in your best interest. Para’s not about 
+                    that. We’re about putting you back in the driver’s seat when it comes to your gig work.</P>
+                <P></P>
+                </div>
+                
+        </div>
+            <div class="section-2">
+                <div class="section-2-title">
+                    <h3>Meet the team</h3>
+                </div>
+            </div>
+                <div class="founders">
+                    <div class="david">
+                        <img src="{% static 'img/david-founder.png' %}" alt="david-founder">
+                        <h4>David</h4>
+                        <h5>Co-Founder</h5>
+                        <p>Ex-Uber, Ops & Logisitics Lead</p>
+                    </div>
+                    <div class="jimmy">
+                        <img src="{% static 'img/jimmy-founder.png' %}" alt="jimmy-founder">
+                        <h4>Jimmy</h4>
+                        <h5>User Success & Community</h5>
+                        <p>Ex-Gadfly, Growth Lead</p>
+                    </div>
+                    <div class="jeff">
+                        <img src="{% static 'img/jeff-founder.png' %}" alt="jeff-founder">
+                        <h4>Jeff</h4>
+                        <h5>Co-Founder</h5>
+                        <p>Ex-Twitter, Data Science Lead</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="foot">
+        <div class="foot-1">
+            <p>para LLC | <a href="/contact">Contact Us</a></p>
+        </div>
+        <div class="foot-2">
+            <p>Back to top <a href="#top"><img id="back-to-top-img"src="{% static 'img/back-to-top.png' %}" alt="Back-to-top"></a></p>
+        </div>
+    </div>
+    
+</footer>
+</html>

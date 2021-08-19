@@ -1,0 +1,113 @@
+/index
+
+        Head:
+            Nav bar.... this to ensure the users see all the options. 
+            if its anyting below 1024 it will be auto to hamburger option 
+
+        Body:
+            Slide Show with People showing app results
+        Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US`
+
+
+/press 
+
+        Head:
+            Nav bar.... this to ensure the users see all the options. 
+            if its anyting below 1024 it will be auto to hamburger option 
+
+        Body: 
+            Find all article to the press release 
+            
+            laylout as if it was a newspaper 
+            Grid:
+                1/4: slide show of press release 
+                2/4: videos of people from youtube (recognized podcast{source: must be credible to make it here})
+                3/4: news outlets 
+                4/4: show growth (get some data from K: {use matplotlib for graphs})
+            
+        Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US`
+
+/testemonies
+
+        Head:
+            Nav bar.... this to ensure the users see all the options. 
+            if its anyting below 1024 it will be auto to hamburger option 
+
+        body:
+            Section 1: 
+                here will a chart deatailing the growth of the user in the last year(if data exist else make a y=mx+b sample {matplotlib > {{docs exist in bookmark bar}}})
+
+            Section 2:
+                this Section will be split into thirds in-line
+
+                    1. Here will be a small slide show of the fb comments
+
+                    2. here will be a playlist of yt videos giving reviews
+
+                    3. clickable SSM handles 
+
+         Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US`
+
+
+/FAQ 
+         Head:
+            Nav bar.... this to ensure the users see all the options. 
+            if its anyting below 1024 it will be auto to hamburger option 
+
+        Body:
+            10 FAQS and A 
+
+         Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US
+
+/contact_us
+
+        Head:
+            Nav bar.... this to ensure the users see all the options. 
+                if its anyting below 1024 it will be auto to hamburger option
+        
+        body:
+            Here will a form to send a direct message to the support team
+        
+        Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US
+
+/meet_the_team
+        Head:
+            Nav bar.... this to ensure the users see all the options. 
+                if its anyting below 1024 it will be auto to hamburger option
+        
+        body:
+            here will the 3 founders in alphabetical order
+            
+            the about us section will also be included here it wont be an additonal url
+
+        Foot:
+            Ensure that he grid doesnt need to scroll 
+            but if so include a back to top button
+            
+            LLC Name * Contact US
+
+
+
+
+                 
+

@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    width: fit-content;
+
+}
+    #logo{
+        width: 250px;
+        height: 90px;
+    }
+.body{
+    display: flex;
+    justify-content: center;
+}
+    .section-1-title, .section-1-sub-title{
+        display: flex;
+        justify-content: center;
+    }
+    .section-1-body{
+        padding-right:20%;
+        padding-left: 20%;
+    }
+    .section-2{
+        display: flex;
+        justify-content: center;
+    }
+    .section-2-title{
+        display: flex;
+        justify-content: center;
+    }
+    .founders{
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+    }
+    .david, .jimmy, .jeff{
+        margin-right :5%;
+        margin-left: 5%;
+    }
+.foot{
+    position: relative;
+    top: 100px;
+    /* display: flex;
+    justify-content: center; */
+}
+    .foot-1{
+        display: flex;
+        justify-content: center;
+    }
+    .foot-2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #back-to-top-img{
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
